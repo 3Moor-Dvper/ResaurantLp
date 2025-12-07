@@ -1,0 +1,66 @@
+@import "tailwindcss";
+body{
+  background-color: rgb(0, 0, 0);
+  height: 5000px;
+}
+@font-face {
+  font-family: "DmSerifeDisplay";
+  src: url(../public/fonts/DMSerifDisplay-Regular.ttf);
+}
+@font-face {
+  font-family:"DMSans";
+  src:url(../public/fonts/DMSans-Regular.ttf);
+}
+@font-face {
+  font-family:"Inter";
+  src:url(../public/fonts/Inter_28pt-Regular.ttf);
+}
+@theme{
+--breakpoint-xsm:320px;
+--breakpoint-smm:375px;
+--breakpoint-mdm:425px;
+--breakpoint-lgm:560px;
+
+--font-dmserif:"DmSerifeDisplay";
+--font-dmsans:"DMSans";
+--font-inter:'inter';
+--color-black:#000000;
+--color-gray:#272727;
+--color-yellow:#FFC164;
+--color-orange:#FF9F0F;
+--color-red:#FF5C5C;
+
+--text-h1:24px;
+--text-h2:25px;
+--text-h3:28px;
+--text-h4:45px;
+--text-h5:65px;
+
+
+}
+@utility flex-center{
+  @apply flex items-center justify-center
+}
+
+@layer base{
+  a,button{
+    @apply cursor-not-allowed
+  }
+  h1{
+    @apply text-h1
+  };
+  h2{
+    @apply text-h2
+  }
+  h3{
+    @apply text-h3
+  }
+  h4{
+    @apply text-h4
+
+  };
+  h5{
+    @apply text-h5
+  }
+
+}
