@@ -16,10 +16,10 @@ body{
   src:url(../public/fonts/Inter_28pt-Regular.ttf);
 }
 @theme{
---breakpoint-xsm:320px;
---breakpoint-smm:375px;
---breakpoint-mdm:425px;
---breakpoint-lgm:560px;
+  --breakpoint-xsm:320px;
+  --breakpoint-smm:375px;
+  --breakpoint-mdm:425px;
+  --breakpoint-lgm:560px;
 
 --font-dmserif:"DmSerifeDisplay";
 --font-dmsans:"DMSans";

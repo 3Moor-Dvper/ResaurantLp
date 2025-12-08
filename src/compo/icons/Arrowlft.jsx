@@ -4,7 +4,9 @@ export function Arrowlft() {
 
     return (
         <>
-      <svg width="332" height="278" viewBox="0 0 414 317" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className="max-sm:w-[150px]"
+      
+                width="332" height="278" viewBox="0 0 414 317" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <motion.path
                     initial={{ pathLength: 1, pathOffset: 1 }}
                 

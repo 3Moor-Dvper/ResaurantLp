@@ -36,7 +36,7 @@ export function Works() {
                             </motion.div>
                         ))}
                             </div>
-                    <button className="bg-orange shadow-sm hover:scale-120 duration-300 shadow-yellow p-2 text-[20px] rounded-[20px]">{work.btn}</button>
+                    <button className="bg-orange shadow-sm hover:scale-120 max-sm:hover:scale-105 duration-300 shadow-yellow p-2 text-[20px] rounded-[20px]">{work.btn}</button>
                 </motion.div>
             ))}
         </motion.div>

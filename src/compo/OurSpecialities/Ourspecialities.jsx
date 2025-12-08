@@ -5,9 +5,7 @@ export function Ourspecialities() {
     return (<>
         <Title></Title>
         <Filters></Filters>
-        
-        
-            <Cards></Cards>
+        <Cards></Cards>
         
        
 

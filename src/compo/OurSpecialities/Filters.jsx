@@ -28,10 +28,10 @@ export function Filters() {
                 initial='hidden'
                 whileInView='show'
                 viewport={{once:true}}
-                className="text-white flex gap-10 text-h3 flex-center font-dmsans mt-20 w-full">
+                className="max-sm:hidden  sm:grid-cols-2 text-h3 md:grid-cols-3 xl:grid-cols-6 gap-10 grid text-white p-16 font-dmsans mt-20 w-full">
                 {filters.map((item) => (
                     <motion.button
-                        className=" p-5 rounded-lg hover:bg-red transition-colors duration-300 ease-in-out border-2 border-red "
+                        className=" p-5 sm:p-2 rounded-lg hover:bg-red transition-colors duration-300 ease-in-out border-2 border-red "
                         variants={itemVariants}
                     >{item}</motion.button>
                 ))}
