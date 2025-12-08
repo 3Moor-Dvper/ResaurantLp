@@ -51,19 +51,19 @@ const filters = ["Specialities", "Homestyle Sushi", "Steak", "With", "Cocktails"
 
 const cards = [
     {
-        img: "src/assets/Rectangle 14.png",
+        img: assets.rec14,
         title:'Dragon Sushi',
         desc:"Ingredients: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus. Donec vitae vulputate nunc, in laoreet urna.",
         price:"$50"
     },
       {
-          img: "src/assets/Rectangle 15.png",
+          img:assets.rec15,
           title:"Creamy Sushi",
           desc:"Ingredients: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus. Donec vitae vulputate nunc, in laoreet urna.",
           price:"$50"
     },
         {
-            img: "src/assets/Rectangle 16.png",
+            img: assets.rec16,
             title:"Roll Salmon Sushi",
             desc:"Ingredients: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus. Donec vitae vulputate nunc, in laoreet urna.",
             price:"$50"

@@ -16,20 +16,4 @@ export function Img() {
         </>
     )
 }
-// export function Img() {
-//   return (
-//     <section className="relative w-full overflow-hidden">
-//       <motion.img
-//         initial={{ scale: 0, opacity: 0.5 }}
-//         whileInView={{ scale: 1, opacity: 1 }}
-//         transition={{
-//           scale: { duration: 1 },
-//           opacity: { duration: 1, delay: 0.5 },
-//         }}
-//         viewport={{ once: true }}
-//         src="/ResaurantLp/imgs/Rectangle 13.png"
-//         className="w-full h-auto max-h-[510px] object-cover"
-//       />
-//     </section>
-//   );
-// }
+
