@@ -17,7 +17,7 @@ export function Cards() {
                         <motion.div
                             className={`flex justify-around items-center ${isEven ? "flex-row" : "flex-row-reverse"}`}>
                             <motion.img
-                                className="max-sm:w-[150px] sm:w-[300px]"
+                                className="xsm:w-[150px] mdm:w-[170px] lgm:w-[200px] sm:w-[250px] md:w-[300px] lg:w-[500px]  2xl:w-[600px]"
                                 initial={{ opacity: 0, x:0 }}
                                 whileInView={{
                                     opacity: 1,
@@ -43,9 +43,9 @@ export function Cards() {
                                 transition={{ duration: .5, delay: .3 ,ease:"backOut"}}
                                 viewport={{once:true,amount:.5}}
                             >
-                                <h4 className="xsm:text-[10px] mdm:text-[20px] sm:text-h1  ">{card.title}</h4>
-                                <h1 className="xsm:text-[7px]  mdm:text-[10px] sm:text-[15px] ">{card.desc}</h1>
-                                <span className="text-yellow">{card.price}</span>
+                                <h4 className="xsm:text-[10px] mdm:text-[15px] lgm:text-[18px]  sm:text-[20px] md:text-h2      lg:text-[40px] xl:text-h4         ">{card.title}</h4>
+                                <h1 className="xsm:text-[7px]  mdm:text-[8px]                   sm:text-[10px] md:text-[15px]  lg:text-[20px] xl:text-h1       tracking-widest leading-6 ">{card.desc}</h1>
+                                <span className="text-yellow sm:text-h1">{card.price}</span>
                             </motion.div>
                         </motion.div>
                     )   

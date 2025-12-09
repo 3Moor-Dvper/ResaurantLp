@@ -17,7 +17,7 @@ export function Text() {
                 <h5 className="font-dmserif text-yellow max-sm:text-[20px] sm:text-h3 md:text-h5">
                     Today's Special
                 </h5>
-                <h4 className="font-dmsans text-white max-sm:text-[10px] sm:text-[20px] md:text-h3 lg:text-h4">
+                <h4 className="tracking-widest font-dmsans text-white max-sm:text-[10px] sm:text-[20px] md:text-h3 lg:text-h4">
                     Special menu oftenly comes different everyday,
                         this is our special food for today
                 </h4>

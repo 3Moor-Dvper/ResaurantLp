@@ -4,9 +4,8 @@ import { filters } from "../../Data"
 export function Filters() {
 
     const containerVariants = {
-        hidden: { opacity: 0 },
+        hidden: {},
         show: {
-            opacity: 1,
             transition: {
                 staggerChildren: 0.2,
                 delayChildren: .5,  

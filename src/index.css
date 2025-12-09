@@ -42,9 +42,11 @@ body{
   @apply flex items-center justify-center
 }
 
+
 @layer base{
   a,button{
-    @apply cursor-not-allowed
+    @apply cursor-not-allowed text-white
+    
   }
   h1{
     @apply text-h1

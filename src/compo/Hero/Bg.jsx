@@ -7,7 +7,15 @@ export function Bg({children}) {
                 animate={{ opacity: 1, scale:1}}
                 transition={{duration:1}}
             
-                className="relative before:content-[''] before:absolute before:bottom-[-5px] before:left-0 before:w-full before:h-20 before:bg-linear-to-t before:from-black before:to-transparent   "
+                className={`relative
+                before:content-['']
+                before:absolute
+                before:bottom-[-5px] 
+                before:left-0 
+                before:w-full
+                before:h-20 
+                before:bg-linear-to-t
+                before:from-black before:to-transparent `}
             >
                 <img className="w-full " src="/ResaurantLp/imgs/bg.png"  alt="" />
                 {children}

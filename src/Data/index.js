@@ -70,6 +70,27 @@ const cards = [
     },
 ]
 
+const boxes = [
+    {
+        title:"Fine Dining",
+        desc:"Bottle of Champagne Fine Sushi Tower For 2+ Dessert",
+        price:"$500",
+        img:assets.D1
+    },
+    {
+        title:"Gold Dining",
+        desc:"Bottle of Champagne Secret Menu Sushi For 2+ Dessert",
+        price:"$1000",
+        img:assets.D2
+    },
+    {
+        title:"Royalty Dining",
+        desc:"Bottle of Luxury Champagne Special Menu Sushi For 2+ Royal Dessert",
+        price:"$1500",
+        img:assets.D3
+    },
+]
+
 
 
 
@@ -77,5 +98,6 @@ export {
     navLinks,
     works,
     filters,
-    cards
+    cards,
+    boxes
 };
