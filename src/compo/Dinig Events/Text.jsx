@@ -11,9 +11,9 @@ export function Text() {
 
         <h5 className="text-yellow font-dmserif xsm:text-[20px] mdm:text-[30px] ">Dining Events</h5>
         <h4 className="font-dmsans text-white   xsm:text-[10px] mdm:text-[20px] ">We provide dining event for your special day with your important people</h4>
-        <div className="space-x-10 tracking-widest">
-        <button className=" border-2 border-red xsm:p-2 xsm:text-[10px] mdm:text-[12px]                   p-5 hover:bg-red ease-in-out duration-200 transition-all rounded-xl">Private Events</button>
-        <button className=" border-2 border-red xsm:p-2 xsm:text-[10px] mdm:text-[12px]                   p-5 hover:bg-red ease-in-out duration-200 transition-all rounded-xl">Corporate Events</button>
+        <div className="space-x-10 max-sm:space-x-5 tracking-widest">
+        <button className=" border-2 border-red xsm:p-2 xsm:text-[10px] sm:text-[15px] md:text-[20px]                p-5 hover:bg-red ease-in-out duration-200 transition-all rounded-xl">Private Events</button>
+        <button className=" border-2 border-red xsm:p-2 xsm:text-[10px] sm:text-[15px] md:text-[20px]              p-5 hover:bg-red ease-in-out duration-200 transition-all rounded-xl">Corporate Events</button>
 
         </div>
         

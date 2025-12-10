@@ -4,7 +4,7 @@ export function Arrowlft() {
 
     return (
         <>
-            <svg className="max-sm:w-[150px]"
+            <svg className="max-sm:w-[150px] sm:w-[400px] md:w-[500px]"
       
                 width="332" height="278" viewBox="0 0 414 317" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <motion.path
