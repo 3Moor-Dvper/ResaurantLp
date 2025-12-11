@@ -1,7 +1,6 @@
 @import "tailwindcss";
 body{
   background-color: rgb(0, 0, 0);
-  height: 5000px;
 }
 @font-face {
   font-family: "DmSerifeDisplay";
