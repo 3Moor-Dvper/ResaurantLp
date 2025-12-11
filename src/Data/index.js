@@ -90,6 +90,14 @@ const boxes = [
         img:assets.D3
     },
 ]
+const story = {
+    img: assets.story,
+    t1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat urna id leo euismod rhoncus.Aliquam erat volutpat.Nulla id aliquam neque,at dignissim quam.Praesent et lacus accumsan, consequat nisl a, mattis sapien.",
+    t2:"Nam sodales ullamcorper aliquet. Phasellus ut pretium libero, vitae imperdiet purus. Sed sed tincidunt velit. Aliquam vitae ipsum molestie, vehicula nisi quis, finibus leo.",
+    btn:"more..."
+}   
+
+
 
 
 
@@ -99,5 +107,6 @@ export {
     works,
     filters,
     cards,
-    boxes
+    boxes,
+    story
 };

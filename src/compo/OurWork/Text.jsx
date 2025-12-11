@@ -14,10 +14,10 @@ export function Text() {
             transition={{ duration: .5,delay:1 }}
             
                 className="flex flex-col">
-                <h5 className="font-dmserif text-yellow max-sm:text-[20px] sm:text-h3 md:text-h5">
+                <h5 className="font-dmserif text-yellow text-[clamp(20px,3.3vw,65px)]">
                     Today's Special
                 </h5>
-                <h4 className="tracking-widest font-dmsans text-white max-sm:text-[10px] sm:text-[20px] md:text-h3 lg:text-h4">
+                <h4 className="tracking-widest font-dmsans text-white text-[clamp(10px,2.3vw,45px)]">
                     Special menu oftenly comes different everyday,
                         this is our special food for today
                 </h4>

@@ -11,6 +11,8 @@ import D3   from "./D3.png"
 import foot from "./foot.png"
 import story from "./story.png"
 
+
+
 export const assets = {
     spinach,
     potato ,  
@@ -23,7 +25,8 @@ export const assets = {
     D2,
     D3,   
     foot, 
-    story
+    story,
+    
 
 }
 

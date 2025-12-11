@@ -16,8 +16,8 @@ export function Boxes() {
                         viewport={{once:true,amount:.5}}
                         
                         className="text-white space-y-1 tracking-widest">
-                        <h5 className="xsm:text-[8px] smm:text-[15px] lgm:text-[20px] sm:text-[30px] lg:text-[40px] xl:text-[50px]  2xl:text-h5 ">{box.title}</h5>
-                        <h4 className="xsm:text-[5px] smm:text-[8px] lgm:text-[10px] sm:text-[14px] lg:text-[20px]  xl:text-[30px]     2xl:text-h4 ">{box.desc}</h4>
+                        <h5 className=" text-[clamp(10px,3.3vw,65px)] ">{box.title}</h5>
+                        <h4 className=" text-[clamp(6px,1.4vw,28px)]  ">{box.desc}</h4>
                     </motion.div>
 
                     <motion.div
@@ -42,15 +42,14 @@ export function Boxes() {
                     
                   
                     >
-                        <img src={box.img} alt="" className="xsm:max-w-[150px] smm:max-w-[200px] lgm:max-w-[300px] sm:max-w-[500px] lg:max-w-[600px] xl:max-w-[700px] 2xl:max-w-[1278px]" />
+                        <img src={box.img} alt="" className=" w-[clamp(300px,65.5vw,1278px)]  h-[clamp(60px,18vw,350px)]" />
                         <span className={`
-                        xsm:text-[15px]
-                        sm:text-[30px]
-                        lg:text-[40px]
+                        text-[clamp(10px,3.3vw,65px)]
+                        
                         text-yellow
                              absolute bottom-0
                               ${isEven ? 'left-0' : 'right-0'}
-                               xsm:text-[10px] `}>{box.price}</span>
+                                `}>{box.price}</span>
                     </motion.div>
                 </div>
             

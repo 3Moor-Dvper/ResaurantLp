@@ -10,8 +10,8 @@ export function Title() {
             viewport={{once:true,amount:.5}}
 
             className="text-center mt-20 max-w-[1139px] sm:max-w-[500px] m-auto max-sm:px-20 ">
-            <h5 className="text-yellow font-dmserif max-sm:text-h1 sm:text-h4 ">Our Specialities</h5>
-            <h4 className="tracking-widest text-white max-sm:text-[15px]           sm:text-h2               ">Authentic meals from our restaurant served with high quality ingredients.</h4>
+            <h5 className="text-yellow font-dmserif text-[clamp(16px,3.3vw,65px)] ">Our Specialities</h5>
+            <h4 className="tracking-widest text-white text-[clamp(10px,2.3vw,45px)]         ">Authentic meals from our restaurant served with high quality ingredients.</h4>
             
 
         </motion.div>
