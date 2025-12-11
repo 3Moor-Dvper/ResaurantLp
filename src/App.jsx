@@ -10,7 +10,7 @@ function App() {
  
 
   return (
-    <section className="min-h-[10000px]">  
+    <section>  
       <Nav></Nav>
       <Hero></Hero>
       <Ourwork></Ourwork>
