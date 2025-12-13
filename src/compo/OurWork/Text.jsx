@@ -10,8 +10,8 @@ export function Text() {
             <motion.div
                  initial={{y:50, opacity: 0}}
             whileInView={{ y: 0, opacity:1}}
-            viewport={{once: true }}
-            transition={{ duration: .5,delay:1 }}
+            viewport={{once: true ,amount:.5 }}
+            transition={{ duration: .5 }}
             
                 className="flex flex-col">
                 <h5 className="font-dmserif text-yellow text-[clamp(20px,3.3vw,65px)]">
